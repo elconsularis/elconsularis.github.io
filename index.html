@@ -1,61 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
 
-	<title>Home | El Consularis</title>
+.bgimg {
+  background-image: url('https://www.w3schools.com/w3images/forestbridge.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="ElConsularis.com">
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
 
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700%7CMRoboto:300,400,500,700" rel="stylesheet">
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
 
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
-</head>
-<body class="layout-minimal">
+hr {
+  margin: auto;
+  width: 40%;
+}
+</style>
+<body>
 
-	<div id="preloader" class="preloader preloader-dark">
-		<div class="loader-status">
-			<div class="circle-side"></div>
-		</div>
-	</div>
-
-
-	<div class="site-container">
-
-		<!-- Site Header -->
-		<header class="site-header">
-			<!-- Logo -->
-			<a href="#" class="logo mx-auto">
-				<h1 class="mb-3">El Consularis.</h1>
-			</a>
-		</header>
-
-		<!-- Home Block -->
-		<div class="home-block">
-			<div class="home-block-inner">
-
-				<section id="home" class="d-flex min-vh--100">
-					<div class="container align-self-center">
-						<h1 class="mb-3">We provide consultancy and IT Services.</h1>
-						<p class="lead mb-5">Our website is under construction. We`ll be here soon with our new awesome site.</p>
-
-					</div>
-				</section>
-
-			</div>
-		</div>
-
-		<div class="site-footer__bottom">
-			<div class="container">
-				<div class="site-footer__copy">El Consularis <i class="fa fa-copyright"></i> 2020 All Right Reserved</div>
-			</div>
-		</div>
-
-	</div>
-
+<div class="bgimg">
+  <div class="topleft">
+    <p>EL Consularis</p>
+  </div>
+  <div class="middle">
+    <h1>COMING SOON</h1>
+    <hr>
+    <p>We Provide all Kind of Consultancy and It Services</p>
+  </div>
+  <div class="bottomleft">
+    <p><a href="mailto:walid.m@elconsularis.com">Contact Us</a>
+    </p>
+  </div>
+</div>
 
 </body>
 </html>
