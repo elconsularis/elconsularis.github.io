@@ -1,63 +1,681 @@
-<!DOCTYPE html>
-<html>
-<style>
-	body, html {
-		height: 100%;
-		margin: 0;
-	}
+﻿<!DOCTYPE html>
+<html lang="en">
 
-	.bgimg {
-		background-image: url('/images/slider/slider-bg-2-1.jpg');
-		height: 100%;
-		background-position: center;
-		background-size: cover;
-		position: relative;
-		color: white;
-		font-family: "Courier New", Courier, monospace;
-		font-size: 25px;
-	}
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="">
 
-	.topleft {
-		position: absolute;
-		top: 0;
-		left: 16px;
-	}
+	<link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	
+	<title>
+		El Consularis - Your Vision Partner in Everyday World
+	</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i%7CWork+Sans:400,500,600,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/bootstrap-select.min.css">
+	<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/hover-min.css">
+	<link rel="stylesheet" href="css/vegas.min.css">
+	<link rel="stylesheet" href="plugins/inchtech-icons/style.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/application.css" />
+</head>
 
-	.bottomleft {
-		position: absolute;
-		bottom: 0;
-		left: 16px;
-	}
+<body class="home-three">
+	<div class="preloader"><span></span></div><!-- /.preloader -->
+	<div class="page-wrapper">
+		<div class="topbar-one topbar-one__light">
+			<div class="container">
+				<p class="topbar-one__left-text">We Provide all Kind of Consultancy and IT Services</p>
+				<!-- /.topbar-one__left-text -->
+				<ul class="topbar-one__right-info list-unstyled">
+					<li><i class="fa fa-clock-o"></i> Sun - Fri 9.00 - 18.00</li>
+					<li><i class="fa fa-phone"></i> (+966) 59 916 0432</li>
+				</ul><!-- /.topbar-one__right-info list-unstyled -->
+			</div><!-- /.container -->
+		</div><!-- /.topbar-one -->
+		<header class="site-header site-header__header-one ">
+			<nav class="navbar navbar-expand-lg navbar-light header-navigation stricky">
+				<div class="container clearfix">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="logo-box">
+						<a class="navbar-brand" href="index.html">
+							<img src="images/resources/logo-dark.jpg" class="main-logo" alt="Awesome Image" />
+						</a>
+						<button class="menu-toggler" data-target=".main-navigation">
+							<span class="fa fa-bars"></span>
+						</button>
+					</div><!-- /.logo-box -->
+					<div class="main-navigation">
+						<ul class=" navigation-box left-hav">
+							<li class="current">
+								<a href="#home" class="page-scroll">Home</a>
+							</li>
+							<li>
+								<a href="#about" class="page-scroll">About</a>
+							</li>
+							<li>
+								<a href="#services" class="page-scroll">Services</a>
+							</li>
+							<li><a href="#contactus" class="page-scroll">Contact</a></li>
+						</ul>
+					</div>
+					<!-- /.container -->
+			</nav>
+		</header><!-- /.site-header -->
 
-	.middle {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		text-align: center;
-	}
 
-	hr {
-		margin: auto;
-		width: 40%;
-	}
-</style>
-<body>
+		<section class="banner-one" id="home">
+			<div class="banner-one__carousel owl-carousel owl-theme">
+				<div class="item">
+					<div class="banner-one__single banner-one__slide-3" style="background-image: url(images/slider/slider-bg-3-1.jpg);">
+						<div class="container">
+							<div class="col-lg-6 col-md-8">
+								<div class="banner-one__content">
+									<p class="banner-one__tag-line banner-one__is-animated">Consultancy Redefined</p>
+									<!-- /.banner-one__tag-line -->
+									<h3 class="banner-one__title banner-one__is-animated">
+										Your Vision Partner <br>
+										in Everyday World
+									</h3><!-- /.banner-one__title -->
+									<!--<p class="banner-one__text">
+										Dolor sit amet consectetur elit sed do eiusmod tempor
+										incidi
+										<br>dunt
+										labore et dolore magna.
+									</p>-->
+									<!-- /.banner-one__text -->
+									<br />
+									<a href="#about" class="thm-btn banner-one__btn banner-one__is-animated">Learn more</a>
+									<!-- /.thm-btn -->
+								</div><!-- /.banner-one__content -->
+							</div><!-- /.col-lg-6 -->
+						</div><!-- /.container -->
+					</div><!-- /.banner-one__single -->
+				</div><!-- /.item -->
+				<div class="item">
+					<div class="banner-one__single" style="background-image: url(images/slider/slider-bg-1-2.jpg);">
+						<div class="container">
+							<!--<img src="images/slider/banner-person-1-1.png" alt="" class="banner-one__moc banner-one__is-animated">-->
+							<div class="col-lg-6 col-md-8">
+								<div class="banner-one__content">
+									<p class="banner-one__tag-line banner-one__is-animated">Your Oracle in the New Reality</p>
+									<!-- /.banner-one__tag-line -->
+									<h3 class="banner-one__title banner-one__is-animated">
+										Save Time, Save Money,  <br>
+										Grow and Succeed
+									</h3><!-- /.banner-one__title -->
+									<!--<p class="banner-one__text banner-one__is-animated">
+										Dolor sit amet consectetur elit
+										sed do
+										eiusmod tempor incidi
+										<br>dunt
+										labore et dolore magna.
+									</p>-->
+									<!-- /.banner-one__text -->
+									<br />
+									<a href="#services" class="thm-btn banner-one__btn">Learn more</a><!-- /.thm-btn -->
+								</div><!-- /.banner-one__content -->
+							</div><!-- /.col-lg-6 -->
+						</div><!-- /.container -->
+					</div><!-- /.banner-one__single -->
+				</div><!-- /.item -->
+				<div class="item">
+					<div class="banner-one__single banner-one__slide-2" style="background-image: url(images/slider/slider-bg-2-1-1.jpg);">
+						<div class="container">
+							<!--<img src="images/slider/banner-person-2-1.png" alt="" class="banner-one__moc banner-one__is-animated">-->
+							<div class="col-lg-7 col-md-8">
+								<div class="banner-one__content">
+									<h3 class="banner-one__title banner-one__is-animated">
+										Reliable & Consistent <br>
+										IT-Solutions
+									</h3><!-- /.banner-one__title -->
 
-	<div class="bgimg">
-		<div class="middle">
-			<p><h1>EL Consularis</h1></p>
-			<hr>
-			<p>We Provide all Kind of Consultancy and IT Services</p>
-			<hr>
-			<h1>COMING SOON</h1>
-		</div>
-		<div class="bottomleft">
-			<p>
-				<a href="mailto:walid.m@elconsularis.com"><span style="color:white;">Contact Us</span></a>
-			</p>
-		</div>
-	</div>
+									<p class="banner-one__tag-line banner-one__is-animated">Digital consultancy, Design, and development</p>
+									<!-- /.banner-one__tag-line -->
+									<!--<p class="banner-one__text">
+										Dolor sit amet consectetur elit sed do eiusmod tempor
+										incidi
+										<br>dunt
+										labore et dolore magna.
+									</p>-->
+									<!-- /.banner-one__text -->
+									<br />
+									<div class="banner-one__btn-group">
+										<a href="#contactus" class="thm-btn banner-one__btn banner-one__is-animated">
+											Free
+											Consultation
+										</a><!-- /.thm-btn -->
+										<a href="#about" class="thm-btn banner-one__btn banner-one__is-animated banner-one__btn-white-bg">
+											Learn
+											more
+										</a>
+										<!-- /.thm-btn -->
+									</div><!-- /.banner-one__btn-group -->
+								</div><!-- /.banner-one__content -->
+							</div><!-- /.col-lg-6 -->
+						</div><!-- /.container -->
+					</div><!-- /.banner-one__single -->
+				</div><!-- /.item -->
+			</div><!-- /.banner-one__carousel owl-carousel owl-theme -->
+		</section><!-- /.banner-one -->
 
+		<section class="service-one service-one__home-three">
+			<div class="container">
+				<div class="inner-container">
+					<div class="row no-gutters">
+						<div class="col-lg-4 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
+							<div class="service-one__single hvr-bounce-to-bottom">
+								<div class="service-one__icon">
+									<img src="images/icons/intech-icon-1-2.png" alt="" class="normal-icon">
+									<img src="images/icons/intech-icon-1-2-hvr.png" alt="" class="hvr-icon">
+								</div><!-- /.service-one__icon -->
+								<h3 class="service-one__title">
+									<a>Financial Consultancy</a>
+								</h3>
+								<!-- /.service-one__title -->
+								<p class="service-one__text">
+									<ul>
+										<li style="text-align:left">Feasibility Studies</li>
+										<li style="text-align:left">Taxations</li>
+										<li style="text-align:left">CFO Services</li>
+										<li style="text-align:left">Business Plan</li>
+										<li style="text-align:left">Business Valuations</li>
+										<li style="text-align:left">Financial Modeling</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="500ms">
+							<div class="service-one__single hvr-bounce-to-bottom">
+								<div class="service-one__icon">
+									<img src="images/icons/intech-icon-1-3.png" alt="" class="normal-icon">
+									<img src="images/icons/intech-icon-1-3-hvr.png" alt="" class="hvr-icon">
+								</div><!-- /.service-one__icon -->
+								<h3 class="service-one__title">
+									<a>
+										Development Services
+									</a>
+								</h3>
+								<!-- /.service-one__title -->
+								<p class="service-one__text">
+									<ul>
+										<li style="text-align:left">Web & Mobile App Development</li>
+										<li style="text-align:left">Business Intelligence and Dash-Boarding</li>
+										<li style="text-align:left">Business Analytics</li>
+										<li style="text-align:left">Digital Consultancy and Project Management</li>
+										<li style="text-align:left">Technical on-site SEO Auditing and Web Analytics</li>
+										<li style="text-align:left">Domain Names</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="1000ms">
+							<div class="service-one__single hvr-bounce-to-bottom">
+								<div class="service-one__icon">
+									<img src="images/icons/intech-icon-1-4.png" alt="" class="normal-icon">
+									<img src="images/icons/intech-icon-1-4-hvr.png" alt="" class="hvr-icon">
+								</div>
+								<h3 class="service-one__title"><a>Retail Insights</a></h3>
+								<p class="service-one__text">
+									<ul>
+										<li style="text-align:left">Apparel, Fashion & Luxury</li>
+										<li style="text-align:left">Digital & Multichannel Excellence</li>
+										<li style="text-align:left">Commercial Transformation</li>
+										<li style="text-align:left">Concept Evaluation </li>
+										<li style="text-align:left">Business Assessment</li>
+										<li style="text-align:left">Startup planning</li>
+										<li style="text-align:left">Organization</li>
+										<li style="text-align:left">Strategy</li>
+									</ul>
+								</p>
+							</div><!-- /.service-one__single -->
+						</div><!-- /.col-lg-4 -->
+					</div><!-- /.row -->
+				</div><!-- /.inner-container -->
+			</div><!-- /.container -->
+		</section><!-- /.service-one -->
+
+		<section class="about-one @@extra_class" id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8">
+						<div class="about-one__content">
+							<div class="block-title">
+								<h3 class="block-title__title">
+									About Us <br>
+									<!--<span>near the world</span>-->
+								</h3><!-- /.block-title__title -->
+								<p class="block-title__text">
+									Our Goals can only be reached through the Vehicle of a Plan. There is no Other Route to Success .
+								</p>
+								“ Pablo Picasso “
+								<!-- /.block-title__text -->
+							</div><!-- /.block-title -->
+							<ul class="nav nav-tabs about-one__tab-title" role="tablist">
+								<li class="nav-item about-one__tab-title-item">
+									<a class="nav-link about-one__tab-title-link active" href="#whoweare" role="tab" data-toggle="tab">Who we are</a>
+								</li>
+								<li class="nav-item about-one__tab-title-item">
+									<a class="nav-link about-one__tab-title-link" href="#mission" role="tab" data-toggle="tab">Our Mission</a>
+								</li>
+								<li class="nav-item about-one__tab-title-item">
+									<a class="nav-link about-one__tab-title-link" href="#vision" role="tab" data-toggle="tab">Our Vission</a>
+								</li>
+								<li class="nav-item about-one__tab-title-item">
+									<a class="nav-link about-one__tab-title-link" href="#values" role="tab" data-toggle="tab">Our Values</a>
+								</li>
+							</ul>
+							<div class="about-one__tab-content tab-content">
+								<div role="tabpanel" class="tab-pane show active  animated fadeInUp" id="whoweare">
+									<div class="about-one__content">
+										Since 2018, EL Consularis has been a trusted partner to businesses, individuals and families. We have earned that trust and have been successful by staying true to our mission: To provide the best advice and service to our clients in many fields. While we have consistently grown to meet the evolving needs of our clients, we have preserved the core values that keep us strong and stable through every imaginable market environment:
+										<ul class="about-one__list list-unstyled">
+											<li class="about-one__list-item">
+												Clients come first
+											</li>
+											<li class="about-one__list-item">
+												Integrity is irreplaceable
+											</li>
+											<li class="about-one__list-item">
+												Quality is our measure of success
+											</li>
+											<li class="about-one__list-item">
+												The best advice is the result of expertise and teamwork
+											</li>
+											<li class="about-one__list-item">
+												How we succeed is as important as if we succeed
+											</li>
+										</ul>
+										These tenets create a culture that is unique in our industry — a place where the best professionals want to come and build lasting partnerships with each other and clients like you
+									</div><!-- /.about-one__content -->
+								</div><!-- /.tab-pane -->
+								<div role="tabpanel" class="tab-pane  animated fadeInUp" id="mission">
+									<div class="about-one__content">
+										<p class="about-one__text">
+											Together we’ll put the future into practice. At “EL Consularis” we combine up-to-date knowledge of the markets with a practical approach to processes, technology and organization. Where we see opportunities, we bring these worlds together. We are at your service with a broad range of expertise.
+										</p>
+										<p style="font-weight:bold; margin-top:20px">
+											1- Position our Clients to be “The Best“
+										</p>
+										<p>
+											Every Consultant Role is to give the Best Advise and Solution. The Client-Consultant Relation should transcend the Short Assignment Period.  Our Ultimate Joy is our Previous Clients Referral
+										</p>
+										<p style="font-weight:bold; margin-top:20px">
+											2- Be “The Best“
+
+										</p>
+										<p>
+											To Position our Client to be the Best, we strive to be the Best But keeping up-to-date with Maximum speed with all  New commercial and Operational Changes.
+										</p>
+									</div><!-- /.about-one__content -->
+								</div><!-- /.tab-pane -->
+								<div role="tabpanel" class="tab-pane  animated fadeInUp" id="vision">
+									<div class="about-one__content">
+										<p class="about-one__text">
+											Helping Our Clients Create a Future
+											where their Vision is a Reality
+										</p>
+									</div><!-- /.about-one__content -->
+								</div><!-- /.tab-pane -->
+								<div role="tabpanel" class="tab-pane  animated fadeInUp" id="values">
+									<div class="about-one__content">
+										<p class="about-one__text">
+											There are hundreds of companies to choose from. Finding one you can count on and build a relationship with for the long term is a difficult task.
+											We define ourselves as catalysts, acting as triggers to your ideas and projects and as strong believers in innovation, seeking new solutions to your challenges. Our Integrity is Rooted, in a committed team players who strive for excellence and support you in every way to make your project go beyond your expectations.
+										</p>
+									</div>
+									<div class="col-lg-12" style="margin-top:40px">
+										<div class="row">
+											<div class="col-lg-4">
+												<div class="aboutus-values__container">
+													<h3 class="about-one__text">
+														Let us Make a Difference in Your Work
+													</h3>
+													<br />
+													<p class="aboutus-values_title"><span>Innovation</span></p>
+
+													<p style="padding-left: 10px;padding-right: 10px;">
+														At EL Consularis we believe that innovation makes a difference. We bring innovation into our organizations and Projects and we continuously Looking for better ways of Doing things.
+													</p>
+												</div>
+											</div><!-- /.col-lg-4 -->
+											<div class="col-lg-4">
+												<div class="aboutus-values__container">
+													<h3 class="about-one__text">Excellence , We settle for nothing Less</h3>
+													<br />
+													<p class="aboutus-values_title"><span>Excellence</span></p>
+
+													<p style="padding-left: 10px;padding-right: 10px;">
+														Because we Aim for excellence in every task that we undertake, we focus on results and on creating value to help you reach success while remaining flexible and adaptable to new situations.
+													</p>
+												</div>
+											</div><!-- /.col-lg-4 -->
+											<div class="col-lg-4">
+												<div class="aboutus-values__container">
+													<h3 class="about-one__text">
+														Commitment , is what Make
+														EL Consularis
+													</h3>
+													<br />
+													<p class="aboutus-values_title"><span>Commitment</span></p>
+													<p style="padding-left: 10px;padding-right: 10px;">
+														We Strongly Value commitment to our colleagues, Our Clients and our Partners who inspire us and motivate us everyday. We Build solid relationships to stay Close to what’s most important to Them.
+													</p>
+												</div>
+											</div><!-- /.col-lg-4 -->
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="video-one wow fadeInRight" data-wow-duration="1500ms">
+							<img src="images/resources/aboutus.jpg" alt="">
+							<!--<a href="https://www.youtube.com/watch?v=y2Eqx6ys1hQ" class="hvr-pulse video-one__link video-popup"><i class="fa fa-play"></i></a>-->
+							<!-- /.video-one__link -->
+						</div><!-- /.video-one -->
+					</div><!-- /.col-lg-6 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</section><!-- /.about-one -->
+
+		<section class="service-three" id="services">
+			<div class="container">
+				<div class="block-title text-center">
+					<h2 class="block-title__title">
+						Your Every Day Partner  <br>
+						<span> Provided Services</span>
+					</h2><!-- /.block-title__title -->
+				</div><!-- /.block-title -->
+				<div class="row">
+					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
+						<div class="service-three__single">
+							<div class="service-three__icon">
+								<img src="images/icons/intech-icon-1-2.png" alt="">
+							</div><!-- /.service-three__icon -->
+							<div class="service-three__content">
+								<h3 class="service-three__title">
+									<a>Fiancial Consultancy</a>
+								</h3>
+								<!-- /.service-three__title -->
+								<p class="service-three__text">
+									<ul class="about-one__list list-unstyled">
+										<li class="about-one__list-item">Feasibility Studies</li>
+										<li class="about-one__list-item">Taxations</li>
+										<li class="about-one__list-item">CFO Services</li>
+										<li class="about-one__list-item">Business Plan</li>
+										<li class="about-one__list-item">Business Valuations</li>
+										<li class="about-one__list-item">Financial Modeling</li>
+									</ul>
+								</p><!-- /.service-three__text -->
+								<!--<a  class="service-three__link">Learn More</a>-->
+								<!-- /.service-three__link -->
+							</div><!-- /.service-three__content -->
+						</div><!-- /.service-three__single -->
+					</div><!-- /.col-lg-4 -->
+					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="500ms">
+						<div class="service-three__single">
+							<div class="service-three__icon">
+								<img src="images/icons/intech-icon-1-3.png" alt="">
+							</div><!-- /.service-three__icon -->
+							<div class="service-three__content">
+								<h3 class="service-three__title">
+									<a>
+										Development Services
+									</a>
+								</h3>
+								<!-- /.service-three__title -->
+								<p class="service-three__text">
+									<ul class="about-one__list list-unstyled">
+										<li class="about-one__list-item">Web & Mobile App Development</li>
+										<li class="about-one__list-item">Business Intelligence and Dash-Boarding</li>
+										<li class="about-one__list-item">Business Analytics</li>
+										<li class="about-one__list-item">Digital Consultancy and Project Management</li>
+										<li class="about-one__list-item">Technical on-site SEO Auditing and Web Analytics</li>
+										<li class="about-one__list-item">Domain Names</li>
+									</ul>
+								</p><!-- /.service-three__text -->
+								<!--<a  class="service-three__link">Learn More</a>-->
+								<!-- /.service-three__link -->
+							</div><!-- /.service-three__content -->
+						</div><!-- /.service-three__single -->
+					</div><!-- /.col-lg-4 -->
+					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="1000ms">
+						<div class="service-three__single">
+							<div class="service-three__icon">
+								<img src="images/icons/intech-icon-1-4.png" alt="">
+							</div><!-- /.service-three__icon -->
+							<div class="service-three__content">
+								<h3 class="service-three__title"><a>Retail Insights</a></h3>
+								<!-- /.service-three__title -->
+								<p class="service-three__text">
+									<ul class="about-one__list list-unstyled">
+										<li class="about-one__list-item">Apparel, Fashion & Luxury</li>
+										<li class="about-one__list-item">Digital & Multichannel Excellence</li>
+										<li class="about-one__list-item">Commercial Transformation</li>
+										<li class="about-one__list-item">Concept Evaluation </li>
+										<li class="about-one__list-item">Business Assessment</li>
+										<li class="about-one__list-item">Startup planning</li>
+										<li class="about-one__list-item">Organization</li>
+										<li class="about-one__list-item">Strategy</li>
+									</ul>
+								</p><!-- /.service-three__text -->
+								<!--<a  class="service-three__link">Learn More</a>-->
+								<!-- /.service-three__link -->
+							</div><!-- /.service-three__content -->
+						</div><!-- /.service-three__single -->
+					</div><!-- /.col-lg-4 -->
+					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
+						<div class="service-three__single">
+							<div class="service-three__icon">
+								<img src="images/icons/intech-icon-1-5.png" alt="">
+							</div><!-- /.service-three__icon -->
+							<div class="service-three__content">
+								<h3 class="service-three__title"><a>Architectural Design</a></h3>
+								<!-- /.service-three__title -->
+								<p class="service-three__text">
+									<ul class="about-one__list list-unstyled">
+										<li class="about-one__list-item">New Concept and Design</li>
+										<li class="about-one__list-item">Rehabilitation and Redesign</li>
+										<li class="about-one__list-item">Interior and Exterior Design</li>
+										<li class="about-one__list-item">Landscaping Design</li>
+										<li class="about-one__list-item">3D rendering</li>
+										<li class="about-one__list-item">Structural Design</li>
+									</ul>
+								</p><!-- /.service-three__text -->
+								<!--<a  class="service-three__link">Learn More</a>-->
+								<!-- /.service-three__link -->
+							</div><!-- /.service-three__content -->
+						</div><!-- /.service-three__single -->
+					</div><!-- /.col-lg-4 -->
+					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="500ms">
+						<div class="service-three__single">
+							<div class="service-three__icon">
+								<img src="images/icons/intech-icon-1-6.png" alt="">
+							</div><!-- /.service-three__icon -->
+							<div class="service-three__content">
+								<h3 class="service-three__title"><a>Professional Photo Editing</a></h3>
+								<!-- /.service-three__title -->
+								<p class="service-three__text">
+									<ul class="about-one__list list-unstyled">
+										<li class="about-one__list-item">Caricature</li>
+										<li class="about-one__list-item">Restoration</li>
+										<li class="about-one__list-item">Sketch VS Reality</li>
+										<li class="about-one__list-item">Phoglight.com</li>
+									</ul>
+								</p><!-- /.service-three__text -->
+								<!--<a class="service-three__link">Learn More</a>-->
+								<!-- /.service-three__link -->
+							</div><!-- /.service-three__content -->
+						</div><!-- /.service-three__single -->
+					</div><!-- /.col-lg-4 -->
+					<div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="1000ms">
+						<div class="service-three__single">
+							<div class="service-three__icon">
+								<img src="images/icons/intech-icon-1-7.png" alt="">
+							</div><!-- /.service-three__icon -->
+							<div class="service-three__content">
+								<h3 class="service-three__title"><a>ERP Solutions</a></h3>
+								<!-- /.service-three__title -->
+								<p class="service-three__text">
+									<ul class="about-one__list list-unstyled">
+										<li class="about-one__list-item">Application Management </li>
+										<li class="about-one__list-item">ERP Implementations </li>
+										<li class="about-one__list-item">Migrations and Updates </li>
+										<li class="about-one__list-item">Customer Service and Support </li>
+										<li class="about-one__list-item">Hardware and Software Solutions</li>
+									</ul>
+								</p><!-- /.service-three__text -->
+								<!--<a class="service-three__link">Learn More</a>-->
+								<!-- /.service-three__link -->
+							</div><!-- /.service-three__content -->
+						</div><!-- /.service-three__single -->
+					</div><!-- /.col-lg-4 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</section><!-- /.service-three -->
+
+		<section class="contact-info-one" id="contactus">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-lg-7">
+						<div class="contact-info-one__content">
+							<div class="block-title">
+								<h3 class="block-title__title"><span>Contact us</span></h3><!-- /.block-title__title -->
+								<p class="block-title__text">
+									Contact Us and Let us Redefine your Enterprise <br> LET'S GET STARTED.
+								</p><!-- /.block-title__text -->
+							</div><!-- /.block-title -->
+							<!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd" class="google-map__contact" allowfullscreen></iframe>-->
+							<iframe width="600" height="360" id="gmap_canvas" src="https://maps.google.com/maps?q=Riyad&t=&z=5&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+						</div><!-- /.contact-info-one__content -->
+					</div><!-- /.col-lg-7 -->
+					<div class="col-lg-4 wow fadeInRight" data-wow-duration="1500ms">
+						<div class="contact-info-one__box ">
+							<div class="contact-info-one__single">
+								<p class="contact-info-one__label">Office</p><!-- /.contact-info-one__label -->
+								<p class="contact-info-one__text">
+									Saudi
+								</p><!-- /.contact-info-one__text -->
+								<p class="contact-info-one__text">
+									Lebanon
+								</p><!-- /.contact-info-one__text -->
+							</div><!-- /.contact-info-one__single -->
+							<div class="contact-info-one__single">
+								<p class="contact-info-one__label">Phone</p><!-- /.contact-info-one__label -->
+								<p class="contact-info-one__text">
+									<a href="tel:+966 59 916 0432">
+										(+966) 59 916 0432
+									</a>
+
+								</p><!-- /.contact-info-one__text -->
+							</div><!-- /.contact-info-one__single -->
+							<div class="contact-info-one__single">
+								<p class="contact-info-one__label">Email</p><!-- /.contact-info-one__label -->
+								<p class="contact-info-one__text">
+									<a href="mailto:info@elconsularis.com">info@elconsularis.com</a>
+									<!--<a href="mailto:hello@example.com">hello@example.com</a>
+									<a href="mailto:support@example.com">support@example.com</a>-->
+								</p><!-- /.contact-info-one__text -->
+							</div><!-- /.contact-info-one__single -->
+							<!--<div class="contact-info-one__single">
+								<p class="contact-info-one__label">Follow us</p>
+								<div class="contact-info-one__social">
+									<a href="#"><i class="fa fa-linkedin"></i></a>
+									<a href="#"><i class="fa fa-instagram"></i></a>
+								</div>
+							</div>-->
+						</div><!-- /.contact-info-one__box -->
+					</div><!-- /.col-lg-4 -->
+				</div><!-- /.row justify-content-between -->
+			</div><!-- /.container -->
+		</section><!-- /.contact-info-one -->
+		<footer class="site-footer">
+			<div class="site-footer__bottom">
+				<div class="container">
+					<div class="site-footer__copy">ElConsularis <i class="fa fa-copyright"></i> 2020 </div>
+					<!-- /.site-footer__copy -->
+					<!--<ul class="list-unstyled site-footer__links">
+						<li><a href="#">Terms of Service</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+					</ul>-->
+				</div><!-- /.container -->
+			</div><!-- /.site-footer__bottom -->
+		</footer><!-- /.site-footer -->
+	</div><!-- /.page-wrapper -->
+
+	<div class="search-popup">
+		<div class="search-popup__overlay custom-cursor__overlay">
+			<div class="cursor"></div>
+			<div class="cursor-follower"></div>
+		</div><!-- /.search-popup__overlay -->
+		<div class="search-popup__inner">
+			<form action="#" class="search-popup__form">
+				<input type="text" name="search" placeholder="Type here to Search....">
+				<button type="submit"><i class="fa fa-search"></i></button>
+			</form>
+		</div><!-- /.search-popup__inner -->
+	</div><!-- /.search-popup -->
+
+	<a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/TweenMax.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/bootstrap-select.min.js"></script>
+	<script src="js/bootstrap-datepicker.min.js"></script>
+	<script src="js/jquery.counterup.min.js"></script>
+	<script src="js/isotope.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/vegas.min.js"></script>
+	<script src="js/theme.js"></script>
+
+	<script>
+		$(function () {
+			var scrollLink = $('.page-scroll');
+			$(window).scroll(function () {
+				var scrollbarLocation = $(this).scrollTop();
+				scrollLink.each(function () {
+					var sectionOffset = $(this.hash).offset().top - 73;
+					if (sectionOffset <= scrollbarLocation) {
+						$(this).parent().addClass('current');
+						$(this).parent().siblings().removeClass('current');
+					}
+				});
+			});
+		});
+	</script>
 </body>
+
 </html>
