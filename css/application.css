@@ -1,0 +1,25 @@
+﻿.aboutus-values__container{
+	background-color: #fff;
+	-webkit-box-shadow: 0px 50px 120px 0px rgba(26, 46, 85, 0.1);
+	box-shadow: 0px 50px 120px 0px rgba(26, 46, 85, 0.1);
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	/*margin-bottom: 50px;*/
+	height:470px
+}
+
+.aboutus-values_title {
+	margin: 0;
+	font-size: 20px;
+	color: #848484;
+	font-family: var(--heading-font);
+	line-height: 1em;
+	margin-bottom: 45px;
+}
+
+	.aboutus-values_title span {
+		font-size: 28px;
+		color: var(--thm-black-color);
+		display: inline-block;
+	}
