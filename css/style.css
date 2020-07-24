@@ -3001,7 +3001,11 @@ textarea.leave-comment__input {
 
 .service-one__home-three .service-one__single {
   margin-bottom: 0;
+  min-height:560px;
 }
+
+
+
 
 .service-three {
   padding-top: 150px;
